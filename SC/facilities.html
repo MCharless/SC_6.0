@@ -1,0 +1,93 @@
+<?php
+session_start();
+
+	include("db_conn.php");
+	include("function.php");
+
+	// $user_data = check_login($conn);
+?> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Complex</title>
+    <link rel="icon" href="/Logo/Seal_of_Santa_Rosa,_Laguna.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="home1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<div class="topnavbar">	
+		<img class="Logo1" src="Logo/Seal_of_Santa_Rosa,_Laguna.png">
+		<p>CITY GOVERNMENT<span class="head">OF SANTA ROSA</span></p>
+		<ul>
+			<li><a href="home.php">HOME</a></li>
+			<li><a href="facilities.php">FACILITIES</a></li>
+			<li><a href="aboutus2.php">ABOUT US</a></li>
+			<li class="dropdown">
+                <a href="#" onclick="event.preventDefault()"><i class="fas fa-circle-user"></i></a>
+                	<ul class="dropdown-content">
+						<li><a href="profile.php">PROFILE</a></li>
+						<li><a href="#">SCHEDULE HISTORY</a></li>
+						<li><a href="logout.php">LOGOUT</a></li>
+                	</ul>
+            </li>			
+		</ul>			
+		
+	</div>
+<div class="cntnr">
+	<div class="container7">
+		<div class="image1"><img src=Image/SportsCourt.jpg></div> 
+		<h2>Arena</h2>
+		<button class="bn">Book Now</button>
+   </div>
+
+	<div class="container8">
+		<div class="image2"><img src=Image/SwimmingP.jpeg></div> 
+		<h2>Swimming Pool </h2>
+		<button class="bn2">Book Now</button>
+   </div>
+</div>
+
+<div class="cntnr2">
+	<div class="container9">
+		<div class="image3"><img src=Image/tennisC.jpg></div> 
+		<h2>Tennis</h2>
+		<button class="bn3">Book Now</button>
+   </div>
+
+	<div class="container10">
+		<div class="image4"><img src=Image/badminton.jpg></div> 
+		<h2>Badminton</h2>
+		<button class="bn4">Book Now</button>
+   </div>
+</div>
+
+<div class="cntnr3">
+	<div class="container11">
+		<div class="image5"><img src=Image/park.png></div> 
+		<h2>Parking Lot</h2>
+		<button class="bn5">Book Now</button>
+   </div>
+</div>
+
+   	<div class="footer3">
+		<img src="Image/footer.png">
+	</div>
+	<div class="footer4">
+		<img src="Image/arlene.png">
+	</div>
+
+   
+		
+
+<script 
+    src="home.js">
+</script>
+</body>
+</html>

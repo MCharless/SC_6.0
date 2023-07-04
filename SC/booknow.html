@@ -1,0 +1,103 @@
+<?php
+session_start();
+
+	include("db_conn.php");
+	include("function.php");
+
+	// $user_data = check_login($conn);
+?> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Complex</title>
+    <link rel="icon" href="/Logo/Seal_of_Santa_Rosa,_Laguna.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="booknow.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<div class="topnavbar">	
+		<img class="Logo1" src="Logo/Seal_of_Santa_Rosa,_Laguna.png">
+		<p>CITY GOVERNMENT<span class="head">OF SANTA ROSA</span></p>
+		<ul>
+			<li><a href="home.php">HOME</a></li>
+			<li><a href="facilities.php">FACILITIES</a></li>
+			<li><a href="aboutus2.php">ABOUT US</a></li>
+			<li class="dropdown">
+                <a href="#" onclick="event.preventDefault()"><i class="fas fa-circle-user"></i></a>
+                	<ul class="dropdown-content">
+						<li><a href="profile.php">PROFILE</a></li>
+						<li><a href="#">SCHEDULE HISTORY</a></li>
+						<li><a href="logout.php">LOGOUT</a></li>
+                	</ul>
+            </li>			
+		</ul>	
+    </div>
+   
+    <div class="container">
+        <div class="avail">
+            <div class="availability-stat">
+                <div class="circle"></div>
+                <p>Not Available</p>
+            </div>
+            <div class="availability-stat">
+                <div class="circle1"></div>
+                <p>Still Available</p>
+            </div>
+           
+        </div>
+
+
+        <div class="book">
+          <div class="calendar">
+            <h2>Date</h2>
+            <input class="date" type="date">
+          </div>
+          <div class="timer">
+            <div class="time1">
+              <h2>Time-In</h2>
+              <input class="timein" type="time">
+            </div>
+            
+            <div class="time2">
+              <h2>Time Out</h2>
+              <input class="timeout" type="time">
+            </div>
+          </div>
+        </div>
+      
+      
+<div class="container2">
+    <div class="info">
+        <div class="event">
+            <h2>Type of Event (Please Specify)</h2>
+            <input type="text" id="event" placeholder="Choose type of events" name="">
+        </div>
+        <div class="attendees">
+            <h2>Estimated Attendees</h2>
+            <input type="" id="attendees" placeholder="Specify the number of attendees" name="">
+        <div class="req"></div>
+            <h2>Other Request</h2>
+            <input type="" id="req" placeholder="Please type your concern " name="">
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+    <script 
+    src="home.js">
+</script>
+</body>
+</html>
+

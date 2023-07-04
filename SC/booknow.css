@@ -1,0 +1,291 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    min-height: 100vh;
+ 
+   
+}
+
+.topnavbar{
+    width: 100%;
+    height: 75px;
+    background-color:#FFCC00;
+    stroke: #BDBDBD;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: relative  ;
+    
+}
+.Logo1{
+    width: 60px;
+    margin: 0px;  
+    margin-right: 30px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 5px;
+}
+.topnavbar p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    line-height: 45px;
+    float: left;
+    padding: 0px 10px 0px 20px;
+    margin-left: 95px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+
+}
+
+.topnavbar ul{
+    float: right;
+    margin-top: 5px; 
+    margin-right: 20px;
+
+}
+.topnavbar li p{
+    font-size: 40px;
+    color: white;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+.topnavbar ul li{
+    float:left;
+    list-style: none;
+    font-size: 20px;
+    position: relative; 
+}
+
+.topnavbar ul li a{
+    display: block;
+    padding: 17px 14px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;	
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+.topnavbar ul li i{
+
+    margin-left: 15px;
+}
+
+.topnavbar ul li a.activepage {
+    color: #A4040A;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {       
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    left: -160px;
+    margin-top: 200px;
+    opacity: .9;
+}
+.dropdown-content a {
+    color: #fff !important; /* Change the text color */
+}
+.dropdown-content a:hover {
+    background-color: #A4040A;
+    color: #A4040A;
+    width:90%;
+}
+.fa-circle-user{
+    font-size: 35px;
+    margin-top: -5px;
+}
+
+.head{
+    display: block; 
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+
+.container {
+    background-color: #F4F6DC;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 110px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 500px;
+  }
+  .circle {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 40px;
+   
+  }
+  
+  .circle1 {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(45, 193, 8);
+    margin-top: 40px;
+   
+  }
+  
+
+  
+  .avail {
+    display: flex;
+    position: relative;
+    margin-left: 740px;
+
+  }
+  
+  .availability-stat {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+  }
+  
+  .availability-stat p {
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  
+  .book {
+    display: inline-flex;
+  }
+  
+  .calendar {
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .date,
+  .timein,
+  .timeout {
+    background-color: #D9D9D9;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .calendar h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .timer {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  
+  .timer h2 {
+    font-size: 40px;
+  }
+  .time1{
+    text-align: center;
+    margin-left: 90px;
+  }
+  .time2{
+    margin-left: 60px;
+    text-align: center;
+  }
+  .timein{
+    margin-right: 20px;
+  }
+  
+  .container2 {
+    background-color: #fFC300;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    position: relative;
+    top: -250px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 240px;
+  }
+  
+  .info {
+    color: black;
+    margin-top: 300px;
+    position: relative;
+    
+  }
+  
+  .event h2 {
+    padding-top: 20px;
+  }
+  
+  #event {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #attendees {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #req {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  
+
+  
